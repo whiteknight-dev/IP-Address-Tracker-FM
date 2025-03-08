@@ -28,10 +28,11 @@
     <section>
       <header class="search-container">
         <h1>IP Address Tracker</h1>
-        <form class="search-form" action="">
+        <form id="my-form" class="search-form">
           <input
             type="text"
             placeholder="Search for any IP address or domain"
+            name="ip-address"
           />
           <button type="submit">
             <img src="./images/icon-arrow.svg" alt="search" />
@@ -42,23 +43,25 @@
         <article class="info-cards">
           <div class="info-card">
             <h2>IP Address</h2>
-            <p></p>
+            <p>192.212.174.101</p>
           </div>
           <div class="info-card">
             <h2>Location</h2>
-            <p></p>
+            <p>Brooklyn, NY 10001</p>
           </div>
           <div class="info-card">
             <h2>Timezone</h2>
-            <p></p>
+            <p>UTC -05:00</p>
           </div>
           <div class="info-card">
             <h2>ISP</h2>
-            <p></p>
+            <p>SpaceX Starlink</p>
           </div>
         </article>
         <article class="map-container"></article>
       </main>
     </section>
+
+    <script src="./main.js"></script>
   </body>
 </html>
